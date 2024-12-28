@@ -31,7 +31,7 @@ public class StuCom{
     public static void main(String[] args) {
         //Default output if didn't type any argument
         if (args.length < 2) {
-            System.out.println("Command: java S1 <option> <input file>");
+            System.out.println("Command: java StuCom [argument] [input file]");
             return;
         }
 
@@ -75,7 +75,7 @@ public class StuCom{
             case "-s": //Search by first name
                 if (args.length < 3) {
                     //Default output if didn't type first name
-                    System.out.println("Command: java p1 -s <input file> <first name>");
+                    System.out.println("Command: java StuCom -s [input file] [first name]");
                     return;
                 }
                 searchByFirstName(students, args[2]);
