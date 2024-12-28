@@ -3,6 +3,7 @@
           sattaporn_kowarakun@cmu.ac.th
           672115046
 /////////////////////////////////////////////////////////
+Note: GitHub preview mode will make this file looks very chaos, please download it or view in code mode.
 
 This README file will show you how to execute the program and the example output.
 
